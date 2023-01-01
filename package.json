@@ -1,3 +1,7 @@
 {
-    "author": "Helder Tosta"
+    "author": {
+        "name": "Helder Tosta",
+        "email": "helderatosta@gmail.com",
+        "url": "https://github.com/heldertosta"
+    }
 }
