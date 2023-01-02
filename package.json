@@ -3,5 +3,8 @@
         "name": "Helder Tosta",
         "email": "helderatosta@gmail.com",
         "url": "https://github.com/heldertosta"
+    },
+    "dependencies": {
+        "express": "^4.18.2"
     }
 }
