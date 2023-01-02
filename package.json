@@ -1,14 +1,15 @@
 {
+    "description": "Projeto com conteúdo do desafio 100 days of code",
     "author": {
         "name": "Helder Tosta",
         "email": "helderatosta@gmail.com",
         "url": "https://github.com/heldertosta"
     },
+    "keywords": ["100", "days", "code", "challenge"],
     "main": "./server.js",
     "scripts": {
         "start": "node server.js"
     },
-    "description": "Projeto com conteúdo do desafio 100 days of code",
     "dependencies": {
         "express": "^4.18.2"
     }
