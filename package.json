@@ -5,12 +5,15 @@
         "email": "helderatosta@gmail.com",
         "url": "https://github.com/heldertosta"
     },
+    "version": "1.0.0",
     "keywords": ["100", "days", "code", "challenge", "freecodecamp"],
+    "license": "MIT",
     "main": "./server.js",
     "scripts": {
         "start": "node server.js"
     },
     "dependencies": {
+        "@freecodecamp/example": "1.1.0",
         "express": "^4.18.2"
     }
 }
