@@ -17,7 +17,6 @@ app.get('/json', (req, res) => {
   }
 });
 
-
 app.get('/', function(req, res) {
   //res.send("Hello Express");
   res.sendFile(__dirname + '/views/index.html');
@@ -25,6 +24,13 @@ app.get('/', function(req, res) {
 
 app.get('/teste', (req, res) => {
   console.log(req);
+});
+
+app.get('/now', (req, res, next) => {
+  req.time = new Date().toString();
+  next();
+}, (req, res) => {
+  res.json({"time": req.time});  
 });
 
 
