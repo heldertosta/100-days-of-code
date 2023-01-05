@@ -42,11 +42,22 @@ app.get('/:word/echo', (req, res) => {
   res.json({"echo": req.params.word});
 });
 
-app.get('/name', (req, res) => {
+/*app.get('/name', (req, res) => {
   res.json({"name": req.query.first + " " + req.query.last});
 })
 
-//app.route(path).get(handler).post(handler)
+app.post('/name', (req, res) => {
+  res.json({"name": req.body.first + " " + req.body.last});
+});*/
+
+app.route('/name')
+  .get((req, res) => {
+    res.json({"name": req.query.first + " " + req.query.last});
+  })
+  .post((req, res) => {
+    res.json({"name": req.body.first + " " + req.body.last});
+  });
+  
 
 
  module.exports = app;
