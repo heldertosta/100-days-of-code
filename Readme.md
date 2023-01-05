@@ -1,1 +1,0 @@
-Repositório do projeto 100 days of code.
